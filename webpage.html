@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First Webpage</title>
+    <link rel="stylesheet" href="webpage.css">
+</head>
+<body>
+    <header>
+        <h1>My First Webpage</h1>
+    </header>
+
+    <nav>
+        <a href="#webpage-content">Webpage Contents</a>
+        <a href="#information-table">Information Table</a>
+        <a href="#contact-form">Contact Form</a>
+    </nav>
+
+    <div>
+        <img src="https://th.bing.com/th/id/OIP.9_FgxNU3SM6n4qKQdP-4WwAAAA?rs=1&pid=ImgDetMain" alt="Descriptive image">
+        <p>This is a simple paragraph describing the content of the webpage. It explains the purpose of the page and provides some basic information about what users can expect to find.</p>
+    </div>
+
+    <a href="https://www.techyjaunt.com" target="_blank">Visit TechyJaunt</a>
+
+    <div id="webpage-content">
+        <h2>Webpage Contents</h2>
+        <ul>
+            <li>Introduction</li>
+            <li>Table of Information</li>
+            <li>Contact Form</li>
+        </ul>
+    </div>
+
+    <div id="information-table">
+        <h2>Table of Information</h2>
+        <table>
+            <tr>
+                <th>Item</th>
+                <th>Description</th>
+                <th>Quantity</th>
+            </tr>
+            <tr>
+                <td>Pens</td>
+                <td>Blue Ink Pens</td>
+                <td>5</td>
+            </tr>
+            <tr>
+                <td>Notebooks</td>
+                <td>Spiral-bound Notebooks</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <td>Markers</td>
+                <td>Permanent Markers</td>
+                <td>2</td>
+            </tr>
+        </table>
+    </div>
+
+    <form class="contact-form" id="contact-form">
+        <h2>Contact Form</h2>
+        <label for="name">Name:</label>
+        <input type="text" id="name" placeholder="Name"><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" placeholder="Email"><br>
+        <label for="password">Password:</label>
+        <input type="password" id="password" placeholder="Password"><br>
+        <fieldset>
+            <legend>Gender:</legend>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label>
+        </fieldset>
+        <label for="subscribe">Subscribe:</label>
+        <input type="checkbox" id="subscribe" name="subscribe">
+        <label for="subscribe">Yes, I want to subscribe</label><br>
+        <label for="quantity">Number of Items:</label>
+        <input type="number" id="quantity"><br>
+        <label for="date">Date:</label>
+        <input type="date" id="date"><br>
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4"></textarea><br>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>

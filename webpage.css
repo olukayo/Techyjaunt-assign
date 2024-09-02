@@ -1,0 +1,38 @@
+header{
+   text-align: center;
+    background-color: green;
+    color: white;
+    padding: 4px;
+}
+nav{
+    display: flex;
+    text-decoration: none;
+    color: green;
+    
+    gap: 18px;
+    
+}
+a{
+    text-decoration: none;
+    color: green;
+   
+    
+}
+table, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+}
+input{
+    margin-top: 8px;
+    padding:4px ;
+    margin-bottom: 8px;
+
+}
+
+button{
+    margin-top: 4px;
+   background-color:blue ;
+    color: white;
+    padding: 4px;
+}
